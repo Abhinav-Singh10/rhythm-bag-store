@@ -7,12 +7,10 @@ router.get("/", function (req, res) {
     res.send("hey it's working");
 });
 
-
-
-
 router.post("/register",  registerUser);
 
 router.post("/login", loginUser)
-// router.post("/logout", logout)
+
+router.post("/logout", logout)
 
 module.exports = router;

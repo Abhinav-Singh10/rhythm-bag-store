@@ -10,6 +10,11 @@ router.get("/", function (req, res) {
 
 
 router.get("/shop",isLoggedIn, function (req, res) {
-res.render("shop");
+    res.render("shop");
 });
+
+router.get("/logout",isLoggedIn, function (req, res) {
+    res.render("/shop");
+});
+
 module.exports = router;
