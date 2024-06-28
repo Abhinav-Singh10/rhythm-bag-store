@@ -1,5 +1,6 @@
 # RHYTHM - A bag Store
 
+- [x] Schema Creation
 - [x] Created Login Page
 - [x] Implemented Authentication Logic
 - [ ] Added Products to Shop Route
